@@ -1,0 +1,11 @@
+# Ignore editor directories.
+.idea/
+.vscode/
+
+# Ignore temporary editor files.
+*~
+*.swp
+*.swo
+
+# Ignore macOS desktop services store files.
+**/.DS_Store
