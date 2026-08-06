@@ -12,15 +12,24 @@ Homebrew tap for projects under the [`github.com/tenthirtyam`][tenthirtyam].
 ## Usage
 
 ```bash
+brew install tenthirtyam/tap/<formula>
+```
+
+You can also add the tap first, which makes formulae available in `brew search`:
+
+```bash
 brew tap tenthirtyam/tap
 brew install <formula>
 ```
 
-Or:
+## Available Packages
 
 ```bash
-brew install tenthirtyam/tap/<formula>
+# github.com/tenthirtyam/artifactory-content-library
+brew install tenthirtyam/tap/artifactory-content-library
 ```
+
+Only the latest stable release of each formula is published in this tap.
 
 ## License
 
